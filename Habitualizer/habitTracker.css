@@ -1,0 +1,192 @@
+body{
+  
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("open\ book\ 2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}   
+.container{
+    
+    background-color: #5B8A72;
+    opacity: 0.9;
+    margin-top: 150px;
+    width: 1200px;
+    margin-left: 230px;
+    min-height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.title{
+    padding-left: 500px;
+
+}
+.habitname{
+    margin-top: 20px;
+    display: flex;
+    padding-left: 100px;
+    flex-direction: row;
+
+}
+.txtbox{
+    margin-top: 21px;
+    margin-left: 30px;
+    width: 900px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    transition: box-shadow .15s;
+    font-size: large;
+}
+.txtbox:hover{
+    color: black;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6)
+
+}
+.ccrr{
+   margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.cue{
+    flex:1;
+    display: flex;
+    text-align: center;
+    min-height: 300px;
+    flex-direction: column;
+    
+
+}
+
+.tarea{
+    
+    height: 200px;
+    border: none;
+    transition: box-shadow 0.15s;
+    font-size: large;
+    border-radius: 10px;
+}
+.tarea:hover{
+    color: black;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6)
+
+}
+.cra{
+    flex:1;
+    display: flex;
+    text-align: center;
+    min-height: 300px;
+    flex-direction: column;
+
+}
+.res{
+    flex:1;
+    display: flex;
+    text-align: center;
+    min-height: 300px;
+    flex-direction: column;
+
+}
+.rew{
+    flex:1;
+    display: flex;
+    text-align: center;
+    min-height: 300px;
+    flex-direction: column;
+}
+.tech{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.submit{
+    margin-left: 1100px;
+}
+.submit:hover{
+    color:#56776C;
+}
+.list{
+    background-color: #56776C;
+    min-height: 200px;
+    margin:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.list:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.hnc{
+
+display: flex;
+flex-direction: row;
+flex:1;
+font-size: 40px;
+font-weight: 800;
+justify-content: center;
+text-align: center;
+color:#BFCBA8;
+}
+.cont{
+
+    flex:3;
+    display: flex;
+    flex-direction: row;
+}
+.cb{
+flex: 1;
+display: flex;
+background-color: #BFCBA8;
+border: none;
+border-radius: 10px;
+color: #464F41;
+margin-left: 20px;
+margin: 10px;
+font-weight: 700;
+padding:20px;
+
+}
+.crb{
+    flex: 1;
+display: flex;
+background-color: #BFCBA8;
+border: none;
+border-radius: 10px;
+margin-left: 10px;
+margin:  10px;color: #464F41;
+font-weight: 700;
+padding:20px;
+}
+.rb{
+    flex: 1;
+    display: flex;
+    background-color: #BFCBA8;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left:10px;
+    color: #464F41;
+    font-weight: 700;
+padding:20px;
+}
+.reb{
+    flex: 1;
+    display: flex;
+    background-color:#BFCBA8;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 10px;
+    color:#464F41;
+    font-weight: 700;
+padding:20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.link:hover{
+    color: green;
+}

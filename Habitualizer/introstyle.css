@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(atomic-habits_gallery_hi-res_01.jpg);
+    background-size: cover;
+}
+.ah{
+  
+    padding-top:35px;
+    margin-left: 0px;
+    margin-top: 150px;
+    background-color:#412920;
+    opacity: 1;    
+    color :#FFECC6;
+    width: 550px;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    translate: -10px 90px;
+    border-radius: 9px;
+    font-size: 400;
+}
+
+
+.bcbutton{
+    color: white;
+    font-size: 30px;
+    opacity: 0.7;
+    translate: 0px 20px;
+    text-decoration: none;
+    transition: font-size .18s,color .18s;
+    width: 30px;
+    
+}
+.bcbutton:hover{
+    font-size: 32px;
+    color:chocolate;
+
+}
+.yhm{
+    translate: 1209px -100px;
+    background-color: #412920;
+    width: 310px;
+    height: 200px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding-top: 100px ;
+    font-size: 400;
+    color :#FFECC6;
+    text-decoration: none;
+
+}
+.txt{
+    color: #FFECC6;
+    transition: font-size 0.16s,color 0.16s;
+}
+.txt:hover{
+    font-size: 25px;
+    color: gray;
+    
+}
